@@ -89,3 +89,13 @@ My GitHub project repository.
 <p align="center">
   <b>Thanks for visiting my profile! 😊</b>
 </p>
+ 
+---
+
+### ✍️ Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Developer Quote" />
+</p>
+
+
