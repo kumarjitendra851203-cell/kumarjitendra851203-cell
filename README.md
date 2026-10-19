@@ -85,6 +85,15 @@ My GitHub project repository.
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kumarjitendra851203-cell&color=00F0FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </p>
+ 
+<p align="center">
+  <a href="https://www.linkedin.com/in/jitendra-kumar-8051a6380/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/kumarjitendra851203-cell">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
 <p align="center">
   <b>Thanks for visiting my profile! 😊</b>
