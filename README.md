@@ -33,6 +33,11 @@
     <img src="https://img.shields.io/badge/Explore-SISTec--StudySphere-00BFFF?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+<p align="center">
+  <a href="https://github.com/kumarjitendra851203-cell/brainiqtester">
+    <img src="https://img.shields.io/badge/Explore-Brain%20IQ%20100-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore Brain IQ 100" />
+  </a>
+</p>
 
 #### 📚 SISTec-StudySphere
 
@@ -41,6 +46,7 @@ My GitHub project repository.
 - 🔗 **Repository:** [SISTec-StudySphere](https://github.com/kumarjitendra851203-cell/SISTec-StudySphere)
 - 💡 **Purpose:** Explore the project source code and its features.
 - 🌱 **Goal:** Learn through practical development and improve my programming skills.
+
 
 ---
 
