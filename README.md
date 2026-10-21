@@ -38,6 +38,11 @@
     <img src="https://img.shields.io/badge/Explore-Brain%20IQ%20100-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore Brain IQ 100" />
   </a>
 </p>
+<p align="center">
+  <a href="https://github.com/kumarjitendra851203-cell/smartelectricitywastedetector">
+    <img src="https://img.shields.io/badge/Explore-Smart%20Energy%20Analyzer-0D9488?style=for-the-badge&logo=github&logoColor=white" alt="Explore Smart Energy Analyzer" />
+  </a>
+</p>
 
 #### 📚 SISTec-StudySphere
 
