@@ -1,5 +1,5 @@
 """Generates every SVG in /assets. Edit the CONFIG block, then run:  python scripts/build_assets.py
-Optional: drop your photo at assets/photo.jpg and re-run - it is embedded automatically."""
+Photo: keep your picture in assets/ (default name "github pjp.jpeg") - it is shrunk and embedded automatically. Needs: pip install pillow"""
 import base64, math, random, pathlib, re
 
 # ----------------------------- CONFIG (edit me) -----------------------------
@@ -10,7 +10,7 @@ DEGREE = "B.Tech CSE (AI & Data Science)"
 COLLEGE = "SISTec, Bhopal"
 INITIALS = "JK"
 CHIPS = ["Python", "Machine Learning", "Data Science", "Artificial Intelligence",
-         ]
+         "Deep Learning", "NLP", "Data Visualization", "Neural Networks"]
 CARD_STATS = [("3+", "Projects on GitHub"), ("AI & DS", "Specialization"), ("Python", "Primary language")]
 # GitHub stats card - REPLACE with your real numbers (github.com/<you> -> contribution graph)
 STATS = dict(total=0, since="Jan 1, 2026", streak=0, streak_range="-", longest=0, longest_range="-")
@@ -34,11 +34,24 @@ def svg(w, h, body, defs=""):
 def save(name, s):
     (OUT / name).write_text(s, encoding="utf-8"); print("wrote", name)
 
+PHOTO_NAMES = ["github_pjp.jpeg", "github pjp.jpeg", "github pjp.jpg", "photo.jpg", "photo.jpeg", "photo.png"]
+_cache = {}
+
 def photo_href():
-    p = OUT / "https://github.com/kumarjitendra851203-cell/kumarjitendra851203-cell/blob/main/assets/github%20pjp.jpeg"
-    if p.exists():
-        return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
-    return None
+    """Finds your photo in assets/, shrinks it (GitHub SVGs must stay small) and embeds it as base64."""
+    if "h" in _cache: return _cache["h"]
+    _cache["h"] = None
+    for n in PHOTO_NAMES:
+        p = OUT / n
+        if p.exists():
+            from PIL import Image
+            import io
+            im = Image.open(p).convert("RGB")
+            im.thumbnail((640, 640))
+            buf = io.BytesIO(); im.save(buf, "JPEG", quality=84, optimize=True)
+            _cache["h"] = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+            print("using photo:", n); break
+    return _cache["h"]
 
 def text(x, y, t, size=14, fill="#fff", weight="normal", anchor="start", font=None, extra=""):
     f = f' font-family="{font}"' if font else ""
@@ -49,22 +62,22 @@ def text(x, y, t, size=14, fill="#fff", weight="normal", anchor="start", font=No
 def banner():
     W, H = 1000, 330
     defs = ('<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03120a"/><stop offset="1" stop-color="#062414"/></linearGradient>'
-            '<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#04150c"/><stop offset="0.5" stop-color="#04150c" stop-opacity="0.35"/><stop offset="1" stop-color="#04150c" stop-opacity="0"/></linearGradient>'
+            '<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#04150c"/><stop offset="0.45" stop-color="#04150c" stop-opacity="0.45"/><stop offset="1" stop-color="#04150c" stop-opacity="0"/></linearGradient>'
             '<radialGradient id="ph" cx="0.6" cy="0.4" r="0.8"><stop offset="0" stop-color="#14532d"/><stop offset="1" stop-color="#04150c"/></radialGradient>'
             '<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
             '<clipPath id="clip"><rect x="2" y="2" width="996" height="326" rx="16"/></clipPath>')
     b = [f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg)"/>', '<g clip-path="url(#clip)">']
     href = photo_href()
     if href:
-        b.append(f'<image href="{href}" x="560" y="0" width="440" height="330" preserveAspectRatio="xMidYMid slice"/>')
+        b.append(f'<image href="{href}" x="560" y="0" width="440" height="330" preserveAspectRatio="xMidYMin slice"/>')
     else:
         b.append('<rect x="560" y="0" width="440" height="330" fill="url(#ph)"/>')
         b.append(text(790, 205, INITIALS, 130, "#22c55e", "bold", "middle", extra='opacity="0.25"'))
-    b.append('<rect x="480" y="0" width="520" height="330" fill="url(#fade)"/></g>')
+    b.append('<rect x="540" y="0" width="340" height="330" fill="url(#fade)"/></g>')
     for i in range(46):  # stars
         b.append(f'<circle cx="{rng.randint(10,990)}" cy="{rng.randint(10,320)}" r="{rng.choice([0.8,1,1.4])}" fill="#4ade80" opacity="{rng.uniform(.2,.7):.2f}"/>')
     # mini network top-right
-    pts = [(880,60),(930,85),(905,125),(955,50),(850,100),(940,150)]
+    pts = [(925,32),(955,50),(940,72),(975,28),(905,55),(965,95)]
     for a, c in [(0,1),(1,2),(1,3),(0,4),(2,5),(4,2)]:
         b.append(f'<line x1="{pts[a][0]}" y1="{pts[a][1]}" x2="{pts[c][0]}" y2="{pts[c][1]}" stroke="#4ade80" stroke-width="1" opacity=".7"/>')
     for x, y in pts:
@@ -152,7 +165,7 @@ def profile_card():
     b.append('<path d="M668 270 A140 140 0 0 1 700 120" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>')
     href = photo_href()
     if href:
-        b.append(f'<image href="{href}" x="682" y="77" width="236" height="236" clip-path="url(#c)" preserveAspectRatio="xMidYMid slice"/>')
+        b.append(f'<image href="{href}" x="682" y="77" width="236" height="236" clip-path="url(#c)" preserveAspectRatio="xMidYMin slice"/>')
     else:
         b.append('<circle cx="800" cy="195" r="118" fill="#1e293b"/>' + text(800, 228, INITIALS, 84, "#64748b", "bold", "middle"))
     b.append('<rect x="715" y="300" width="190" height="34" rx="17" fill="#0b1626" stroke="#2dd4bf"/>')
