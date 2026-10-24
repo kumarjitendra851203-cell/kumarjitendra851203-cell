@@ -10,7 +10,7 @@ DEGREE = "B.Tech CSE (AI & Data Science)"
 COLLEGE = "SISTec, Bhopal"
 INITIALS = "JK"
 CHIPS = ["Python", "Machine Learning", "Data Science", "Artificial Intelligence",
-         "Deep Learning", "NLP", "Data Visualization", "Neural Networks"]
+         ]
 CARD_STATS = [("3+", "Projects on GitHub"), ("AI & DS", "Specialization"), ("Python", "Primary language")]
 # GitHub stats card - REPLACE with your real numbers (github.com/<you> -> contribution graph)
 STATS = dict(total=0, since="Jan 1, 2026", streak=0, streak_range="-", longest=0, longest_range="-")
@@ -35,7 +35,7 @@ def save(name, s):
     (OUT / name).write_text(s, encoding="utf-8"); print("wrote", name)
 
 def photo_href():
-    p = OUT / "photo.jpg"
+    p = OUT / "https://github.com/kumarjitendra851203-cell/kumarjitendra851203-cell/blob/main/assets/github%20pjp.jpeg"
     if p.exists():
         return "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
     return None
