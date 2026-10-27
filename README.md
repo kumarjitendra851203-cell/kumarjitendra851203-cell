@@ -1,145 +1,165 @@
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kumarjitendra851203-cell&color=00F0FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
-  <a href="https://github.com/kumarjitendra851203-cell?tab=followers">
-    <img src="https://img.shields.io/github/followers/kumarjitendra851203-cell?style=flat-square&logo=github&label=Followers" alt="Followers" />
-  </a>
+  <img src="assets/ai-wave.svg" alt="Jitendra Kumar - AI Wave Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Jitendra Kumar - AI & Data Science Student" width="100%" />
+  <img src="https://komarev.com/ghpvc/?username=kumarjitendra851203-cell&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/kumarjitendra851203-cell?style=for-the-badge&logo=github&color=7C3AED&label=FOLLOWERS" alt="GitHub followers"/>
+</p>
+
+<h1 align="center">Hey, I'm Jitendra Kumar 👋</h1>
+
+<h3 align="center">CSE | AI & Data Science Student | Aspiring AI Engineer</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=Exploring+Artificial+Intelligence;Learning+Python+and+Data+Science;Building+Real-World+Projects;Turning+Ideas+Into+Technology" alt="Typing animation"/>
 </p>
 
 <p align="center">
-  <img src="assets/ai-infographic.svg" alt="Artificial Intelligence roadmap" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=34&pause=1000&color=00F0FF&center=true&vcenter=true&width=650&lines=Hello!+I'm+Jitendra+Kumar;CSE+%7C+AI+%26+Data+Science+Student;Aspiring+AI+Engineer;Learning+Python+and+Building+Projects" alt="Typing SVG" />
-</p>
-
----
-
-# Jitendra Kumar
-
-**B.Tech Computer Science Engineering (AI & Data Science)**
-
-**SISTec, Bhopal, India**
-
-<p align="center">
-  <img src="assets/profile-card.svg" alt="Profile card" width="100%" />
+  <a href="https://github.com/kumarjitendra851203-cell">GitHub</a> •
+  <a href="https://www.linkedin.com/in/jitendra-kumar-8051a6380/">LinkedIn</a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 🧠 About Me
 
-I enjoy learning how complete software systems fit together, from programming fundamentals to data handling, machine learning, and building real projects.
+I'm a B.Tech Computer Science Engineering student specializing in Artificial Intelligence and Data Science at SISTec, Bhopal, India.
 
-- 🎓 **Degree / Field:** B.Tech in Computer Science Engineering (AI & Data Science)
-- 🤖 **Focus Areas:** Artificial Intelligence, Machine Learning, Data Science
-- 🐍 **Currently:** Learning Python and strengthening programming fundamentals
-- 💻 **How I learn:** Building projects to improve coding and problem-solving skills
-- 🎯 **Goal:** Grow into an **AI Engineer**
+- 🤖 Interested in Artificial Intelligence, Machine Learning, and Data Science.
+- 🐍 Learning Python and strengthening programming fundamentals.
+- 💻 Building projects to improve my development and problem-solving skills.
+- 📊 Exploring data analysis, intelligent systems, and AI applications.
+- 🎯 My goal is to become an AI Engineer and build useful real-world solutions.
+
+> My mission: Learn continuously, build consistently, and turn ideas into intelligent solutions.
 
 ---
 
-## 🌐 Socials
+## 🌊 AI Lab
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jitendra-kumar-8051a6380/">
-    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/kumarjitendra851203-cell">
-    <img src="https://img.shields.io/badge/GITHUB-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <!-- Add more, e.g. email:
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/GMAIL-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  -->
+  <img src="assets/ai-wave.svg" alt="Animated AI waveform" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ARTIFICIAL_INTELLIGENCE-Exploring-00F0FF?style=for-the-badge&logo=openai&logoColor=white" alt="AI"/>
+  <img src="https://img.shields.io/badge/DATA_SCIENCE-Learning-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Data Science"/>
+  <img src="https://img.shields.io/badge/INNOVATION-Building-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Innovation"/>
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/kumarjitendra851203-cell/SISTec-StudySphere">
-    <img src="https://img.shields.io/badge/Explore-SISTec--StudySphere-00BFFF?style=for-the-badge&logo=github&logoColor=white" alt="SISTec-StudySphere" />
-  </a>
-  <a href="https://github.com/kumarjitendra851203-cell/brainiqtester">
-    <img src="https://img.shields.io/badge/Explore-Brain%20IQ%20100-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Brain IQ 100" />
-  </a>
-  <a href="https://github.com/kumarjitendra851203-cell/smartelectricitywastedetector">
-    <img src="https://img.shields.io/badge/Explore-Smart%20Energy%20Analyzer-0D9488?style=for-the-badge&logo=github&logoColor=white" alt="Smart Energy Analyzer" />
-  </a>
-</p>
+### 📚 SISTec StudySphere
+
+A student-focused project for organizing and accessing study resources.
+
+- **Tech:** Web development
+- **Repository:** [View source code](https://github.com/kumarjitendra851203-cell/SISTec-StudySphere)
+- **Live demo:** [Open StudySphere](https://sistec-studysphere.vercel.app/)
+
+### 🧩 Brain IQ 100
+
+A number-arrangement puzzle project focused on logic, concentration, and problem-solving.
+
+- **Tech:** Web development and JavaScript
+- **Repository:** [View source code](https://github.com/kumarjitendra851203-cell/brainiqtester)
+- **Live demo:** [Play Brain IQ 100](https://brainiqtester.vercel.app/)
+
+### ⚡ Smart Electricity Waste Detector
+
+An energy-monitoring project concept focused on analyzing electricity usage, identifying unusual consumption, and suggesting ways to reduce waste.
+
+- **Tech focus:** Python, data analysis, forecasting, and anomaly detection
+- **Repository:** [Explore the project](https://github.com/kumarjitendra851203-cell/smartelectricitywastedetector)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
+### Programming Languages
 
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,html,css,js" alt="Programming languages"/>
+</p>
 
-### AI / Machine Learning (learning)
+### Data Science & AI
 
-<img src="https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/SCIKIT--LEARN-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+<p>
+  <img src="https://skillicons.dev/icons?i=numpy,pandas,sklearn" alt="Data science technologies"/>
+</p>
 
-### Tools
+### Tools & Platforms
 
-<img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" alt="Developer tools"/>
+</p>
+
+*Currently learning and expanding my skills in these areas.*
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="assets/github-stats.svg" alt="GitHub stats" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kumarjitendra851203-cell&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjitendra851203-cell&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" width="49%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kumarjitendra851203-cell&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumarjitendra851203-cell&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kumarjitendra851203-cell&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="75%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kumarjitendra851203-cell&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 💻 Spent My Time
-
-<p align="center">
-  <img src="assets/spent-time.svg" alt="Spent my time" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kumarjitendra851203-cell&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" width="100%"/>
 </p>
 
 ---
 
-## 🎯 My Learning Journey
+## 🗺️ My AI Learning Roadmap
 
-> "Small steps every day lead to big achievements."
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/02-Data_Science-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Science"/>
+  <img src="https://img.shields.io/badge/03-Machine_Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning"/>
+  <img src="https://img.shields.io/badge/04-AI_Engineering-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="AI Engineering"/>
+</p>
 
-- 📖 Learn programming fundamentals
-- 🧩 Practice problem-solving
-- 🚀 Build and improve projects
-- 🤖 Explore AI and Data Science
-- 🌟 Keep learning and growing
+- [x] Start learning programming fundamentals.
+- [x] Begin building and publishing projects.
+- [ ] Strengthen Python and problem-solving.
+- [ ] Learn data analysis and visualization.
+- [ ] Study machine learning fundamentals.
+- [ ] Build and deploy practical AI applications.
 
 ---
 
-### ✍️ Random Dev Quote
+## 💡 Beyond the Code
+
+- 🧩 Logical thinking and problem-solving
+- 📖 Continuous learning
+- 🌐 Exploring new technologies
+- 🚀 Building projects that solve practical problems
+
+---
+
+## ✍️ Developer Inspiration
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Developer Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random developer quote"/>
+</p>
+
+---
+
+<h3 align="center">🌌 Learning Today. Building Tomorrow. Engineering Intelligence.</h3>
+
+<p align="center">
+  <b>Thanks for visiting my GitHub profile!</b>
 </p>
 
 <p align="center">
-  <b>Thanks for visiting my profile! 😊</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7C3AED,100:070B18&height=100&section=footer" alt="Animated wave footer" width="100%"/>
 </p>
